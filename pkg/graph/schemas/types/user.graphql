@@ -1,0 +1,15 @@
+type User {
+    id: String!
+    email: String!
+    password: String!
+    todo: [Todo!]
+}
+
+type SignupResult {
+    email: String!
+}
+
+type SigninResult {
+    email: String!
+    access_token: String!
+}

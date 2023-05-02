@@ -1,0 +1,3 @@
+directive @auth on OBJECT | FIELD_DEFINITION
+
+scalar UUID

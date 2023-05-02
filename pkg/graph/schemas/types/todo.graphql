@@ -1,0 +1,6 @@
+type Todo {
+    id: String!
+    title: String!
+    is_completed: Boolean!
+    user: User
+}

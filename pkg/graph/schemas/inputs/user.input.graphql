@@ -1,0 +1,9 @@
+input SignupInput {
+    email: String!
+    password: String!
+}
+
+input SigninInput {
+    email: String!
+    password: String!
+}

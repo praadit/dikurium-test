@@ -1,0 +1,5 @@
+extend type Mutation {
+    createTodo(input: CreateTodoInput!): Todo! @auth()
+    markComplete(todoId: ID!): Todo! @auth()
+    deleteTodo(todoId: ID!): Boolean! @auth()
+}
